@@ -1,5 +1,5 @@
 # Nginx tabanlı bir Docker imajı
-FROM nginx:alpine
+#FROM nginx:alpine
 
 # HTML dosyasını kopyala
-COPY index.html /usr/share/nginx/html/index.html
+#COPY index.html /usr/share/nginx/html/index.html
