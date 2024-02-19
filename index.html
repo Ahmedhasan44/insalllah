@@ -2,18 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Görüntüleme Testi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <!-- Yazının görüntüleneceği alan -->
-    <div id="yazi"></div>
-
-    <script>
-        // JavaScript ile ekrana bir yazı yazdırma
-        document.addEventListener('DOMContentLoaded', function() {
-            // Sayfa yüklendiğinde bu kod çalışacak
-            document.getElementById('yazi').innerHTML = 'Merhaba Dünya!';
-        });
-    </script>
+    <div class="container">
+        <h1>Merhaba Dünya!</h1>
+        <p>test</p>
+        <button onclick="alert('Butona tıklandı!')">Tıkla</button>
+    </div>
 </body>
 </html>
